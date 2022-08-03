@@ -1,7 +1,7 @@
 # Algo in Typescript
 
-## Run A Solution
+## Test A Solution
 
 ```bash
-npx ts-node /path/to/solution
+yarn test /path/to/solution
 ```

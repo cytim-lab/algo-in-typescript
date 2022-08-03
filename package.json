@@ -1,0 +1,16 @@
+{
+  "name": "algo-in-typescript",
+  "version": "1.0.0",
+  "repository": "git@me.github.com:cytim-lab/algo-in-typescript.git",
+  "author": "Tim Wong <cytimo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx ts-node test"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/chai": "^4.3.1",
+    "@types/node": "^18.6.3",
+    "chai": "^4.3.6"
+  }
+}
