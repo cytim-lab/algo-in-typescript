@@ -47,10 +47,7 @@ const importSolutionModule = async (
 
     let actualOutput: any;
     try {
-      const inputs = test.transformTestInputsForSolution.apply(
-        test,
-        testCase.inputs
-      );
+      const inputs = test.transformTestInputsForSolution(testCase.inputs);
       actualOutput = solution.apply(null, inputs);
       console.log(
         `Actual Output:   ${JSON.stringify(

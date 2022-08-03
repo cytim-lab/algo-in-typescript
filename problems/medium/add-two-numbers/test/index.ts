@@ -3,7 +3,9 @@ import { Test } from '../../../../test/Test';
 import ListNode from '../lib/ListNode';
 
 class AddTwoNumbersTest extends Test {
-  transformTestInputsForSolution = (l1: number[], l2: number[]) => {
+  transformTestInputsForSolution = (inputs: any[]) => {
+    const l1: number[] = inputs[0];
+    const l2: number[] = inputs[1];
     return [this.toLinkedList(l1), this.toLinkedList(l2)];
   };
 

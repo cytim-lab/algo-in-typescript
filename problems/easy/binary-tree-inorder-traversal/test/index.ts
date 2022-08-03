@@ -3,7 +3,8 @@ import { Test } from '../../../../test/Test';
 import TreeNode from '../lib/TreeNode';
 
 class BinaryTreeInorderTraversalTest extends Test {
-  transformTestInputsForSolution(values: (number | null)[]) {
+  transformTestInputsForSolution(inputs: any[]) {
+    const values: (number | null)[] = inputs[0];
     return [this.toTree(values)];
   }
 

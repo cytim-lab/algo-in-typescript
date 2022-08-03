@@ -15,7 +15,7 @@ export abstract class Test {
     this.cases = cases;
   }
 
-  transformTestInputsForSolution(...inputs: TestInput[]): any[] {
+  transformTestInputsForSolution(inputs: TestInput[]): any[] {
     return inputs;
   }
 
