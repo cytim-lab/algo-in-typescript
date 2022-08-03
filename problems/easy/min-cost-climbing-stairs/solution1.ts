@@ -1,5 +1,4 @@
 import Solution from './lib/Solution';
-import { run } from './test/runner';
 
 /**
  * Dynamic Programming (top-down)
@@ -28,4 +27,4 @@ const solution: Solution = (cost) => {
   return climb(cost, -1, {});
 };
 
-run(solution);
+export default solution;

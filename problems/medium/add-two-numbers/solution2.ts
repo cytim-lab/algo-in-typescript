@@ -1,6 +1,5 @@
 import ListNode from './lib/ListNode';
 import Solution from './lib/Solution';
-import { run } from './test/runner';
 
 /**
  * Iteration
@@ -33,4 +32,4 @@ const solution: Solution = (l1, l2) => {
   return head.next;
 };
 
-run(solution);
+export default solution;

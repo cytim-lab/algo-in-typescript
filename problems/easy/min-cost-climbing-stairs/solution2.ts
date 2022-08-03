@@ -1,5 +1,4 @@
 import Solution from './lib/Solution';
-import { run } from './test/runner';
 
 /**
  * Dynamic Programming (bottom-up)
@@ -18,4 +17,4 @@ const solution: Solution = (cost) => {
   return Math.min(memo[0], memo[1]);
 };
 
-run(solution);
+export default solution;

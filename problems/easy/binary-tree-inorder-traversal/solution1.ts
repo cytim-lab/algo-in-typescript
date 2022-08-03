@@ -1,6 +1,5 @@
 import Solution from './lib/Solution';
 import TreeNode from './lib/TreeNode';
-import { run } from './test/runner';
 
 /**
  * Recursion
@@ -22,4 +21,4 @@ const traverse = (root: TreeNode | null, output: number[]) => {
 
 const solution: Solution = (root) => traverse(root, []);
 
-run(solution);
+export default solution;

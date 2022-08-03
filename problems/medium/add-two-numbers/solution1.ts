@@ -1,6 +1,5 @@
 import ListNode from './lib/ListNode';
 import Solution from './lib/Solution';
-import { run } from './test/runner';
 
 /**
  * Recursion
@@ -24,4 +23,4 @@ const traverse = (
 
 const solution: Solution = (l1, l2) => traverse(l1, l2, 0);
 
-run(solution);
+export default solution;

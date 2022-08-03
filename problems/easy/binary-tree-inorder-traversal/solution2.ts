@@ -1,6 +1,5 @@
 import Solution from './lib/Solution';
 import TreeNode from './lib/TreeNode';
-import { run } from './test/runner';
 
 /**
  * Iteration with Stack
@@ -29,4 +28,4 @@ const solution: Solution = (root) => {
   return output;
 };
 
-run(solution);
+export default solution;
